@@ -1,0 +1,1422 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+/*Кнопка Explore All*/
+
+a.explore {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+a.explore:hover {
+    background: url(img/arrow.svg) no-repeat 177px 5.25px;
+}
+
+a.explore:active {
+    color: #99BEC2;
+    background: url(img/arrow.svg) no-repeat 177px 5.25px;
+}
+
+
+/*Кнопка ORDER US*/
+
+.button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 47.5px;
+}
+
+.button:hover {
+    background: #ffffff url(img/arrow.svg) no-repeat 180px;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    position: relative;
+}
+
+
+/*Стили для header-navbar_логотип + меню*/
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 545;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link-search:hover {
+    background: url(img/search_grey.png) no-repeat 13px 10px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link:active {
+    /*text-shadow: 1px 1px 1px darkgrey;*/
+    color: #99BEC2;
+    border-bottom: 3px solid #99BEC2;
+}
+
+.menu-link-search:hover {
+    border: none;
+}
+
+.header-navbar a {
+    float: left;
+}
+
+.header-navbar .logo {
+    margin-top: 63px;
+    margin-left: 98px;
+    margin-bottom: 271px;
+}
+
+.header-navbar .logo:active {}
+
+.block-menu {
+    float: right;
+    margin-top: 58px;
+    margin-right: 211px;
+}
+
+
+/*Стили для slider-content*/
+
+.slider-content {
+    clear: both;
+    margin-left: 98px;
+}
+
+.slider-tag {
+    height: 13px;
+    color: #43a047;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 22px;
+}
+
+.slider-name {
+    height: 43px;
+    color: #212121;
+    font-family: 'Montserrat';
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    letter-spacing: -4px;
+}
+
+.slider-details {
+    width: 458px;
+    height: 38px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    width: 212px;
+    height: 45px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 47.5px;
+}
+
+.button:hover {
+    background: #ffffff url(img/arrow.svg) no-repeat 180px;
+}
+
+.button:active {
+    box-shadow: none;
+}
+
+.slider-navigation {
+    position: absolute;
+    bottom: 19px;
+    width: 1366px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle:active {
+    background-color: #99BEC2;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.circle-active:hover {
+    background-color: #494949
+}
+
+.circle-active:active {
+    /*box-shadow: 1px 1px 1px darkgrey;*/
+    background-color: #99BEC2;
+}
+
+
+/*Стили для featured-product_второй раздел страницы*/
+
+.featured-product {
+    width: 1171px;
+    height: 369px;
+    margin: 120px auto;
+}
+
+.tab-controll {
+    margin-bottom: 35px;
+    float: left;
+}
+
+.tab-controll a.new {
+    color: #6c6c6c;
+    display: block;
+    float: left;
+    width: 92px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px 10px 19px 9px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.tab-controll a.new:hover {
+    color: #3C3939;
+    border-bottom: 3px solid #3C3939;
+    padding: 0px 10px 17px 9px;
+}
+
+.tab-controll a.new:active {
+    /*text-shadow: 1px 1px 1px darkgrey;*/
+    color: #99BEC2;
+    border-bottom: 3px solid #99BEC2;
+}
+
+.tab-controll a.featured {
+    padding: 0 12px 19px 8px;
+    float: left;
+    color: #6c6c6c;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.tab-controll a.featured:hover {
+    color: #3C3939;
+    border-bottom: 3px solid #3C3939;
+    padding: 0 12px 17px 8px;
+}
+
+.tab-controll a.featured:active {
+    /*text-shadow: 1px 1px 1px darkgrey;*/
+    color: #99BEC2;
+    border-bottom: 3px solid #99BEC2;
+}
+
+.featured-block {
+    float: left;
+    width: 187px;
+}
+
+.new-block {
+    float: right;
+    width: 113px;
+    overflow: hidden;
+}
+
+
+/*
+.tab-controll a.featured {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    float: left;
+}
+
+.tab-controll a.new {
+    float: right;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+}
+*/
+
+.btn-explore {
+    float: right;
+    margin-top: 18px;
+}
+
+.tab-content {
+    width: 1170px;
+    height: 270px;
+    clear: both;
+    position: relative;
+}
+
+.product {
+    float: left;
+    margin-right: 30px;
+    width: 270px;
+    height: 270px;
+}
+
+.product-one {
+    background-image: url(img/product-one.jpg);
+    position: relative;
+}
+
+.product-content-hover {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    background-image: url(img/back-hidden-opacity.svg);
+    display: none;
+}
+
+.product-one:hover .product-content-hover {
+    display: block;
+}
+
+.back-hidden-opacity {
+    width: 48px;
+    display: inline-block;
+    height: 48px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 24px;
+    background-color: #ffffff;
+    margin: 62px 0 19px 111px;
+}
+
+.back-hidden-opacity:active {
+    box-shadow: none;
+    background-color: #F0F1F3;
+    box-shadow: 0 1px 2px 1px rgba(33, 33, 33, 0.35);
+}
+
+img.arrow-hidden {
+    margin: 14px 18px;
+}
+
+p.hidden-name {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    margin: 0 0 23px 60px;
+}
+
+p.hidden-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 390;
+    line-height: 21.91px;
+    margin: 0 29px;
+    text-align: center;
+}
+
+.product-two {
+    background-image: url(img/product-two.jpg);
+}
+
+.product-three {
+    background-image: url(img/product-three.jpg);
+}
+
+.product-four {
+    margin: 0;
+    background-image: url(img/product-four.jpg);
+}
+
+
+/*стили для третьего раздела_promo-product*/
+
+.promo-product {
+    height: 683px;
+}
+
+.promo-content-1 {
+    float: left;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.jpg);
+}
+
+.promo-content-2 {
+    float: right;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img.jpg);
+}
+
+.promo-content-internal {
+    margin-top: 228px;
+    margin-left: 50px;
+}
+
+.promo-tag {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 4px;
+}
+
+.promo-name {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.promo-details {
+    width: 374px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24.04px;
+    margin-bottom: 26px;
+}
+
+.promo-btn {
+    margin-left: -3px;
+}
+
+
+/*Стили для четвертого раздела_trending-products*/
+
+.trending-products {
+    width: 1171px;
+    height: 869px;
+    margin: 120px auto;
+}
+
+.trending-title {
+    height: 35px;
+}
+
+.trending-title p {
+    float: left;
+    height: 35px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.trending-title a {
+    float: right;
+    margin-top: 18px;
+}
+
+.products-trend {
+    height: 770px;
+    margin-top: 64px;
+}
+
+.products-six {
+    float: left;
+    width: 370px;
+    height: 370px;
+    display: block;
+}
+
+.product-1 {
+    background-image: url(img/product-1.jpg);
+}
+
+.product-2 {
+    background-image: url(img/product-2.jpg);
+    margin-left: 30px;
+}
+
+.product-3 {
+    background-image: url(img/product-3.jpg);
+    margin-left: 30px;
+}
+
+.product-4 {
+    background-image: url(img/product-4.jpg);
+    margin-top: 30px;
+}
+
+.product-5 {
+    background-image: url(img/product-5.jpg);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.product-6 {
+    background-image: url(img/product-6.jpg);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/*пятый раздел_hot-deals*/
+
+.hot-deals {
+    width: 1366px;
+    height: 800px;
+    background-image: url(img/hot.jpg);
+    position: relative;
+}
+
+.hot-slider-content {
+    width: 490px;
+    height: 227px;
+    padding-top: 287px;
+    margin-left: 98px;
+}
+
+p.hot-tag {
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+h2.hot-name {
+    color: #212121;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-bottom: 13px;
+}
+
+p.hot-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+
+.slider-hot {
+    position: absolute;
+    bottom: 19px;
+    width: 1366px;
+    text-align: center;
+}
+
+
+/*шестой блок_*/
+
+.exclusive-product {
+    width: 1170px;
+    height: 570px;
+    margin: 120px auto;
+}
+
+.product-content-exclusive {
+    width: 322px;
+    margin-top: 186px;
+    margin-left: 30px;
+}
+
+p.exclusive-tag {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1e88e5;
+    letter-spacing: 1.8px;
+    margin-bottom: 8px;
+}
+
+h2.exclusive-name {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p.exclusive-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.04px;
+    margin-bottom: 26px;
+}
+
+.product-1-lg {
+    width: 570px;
+    height: 570px;
+    float: left;
+    background-image: url(img/product-1-lg.jpg);
+}
+
+.product-2-sm {
+    width: 270px;
+    height: 270px;
+    float: left;
+    background-image: url(img/product-2-sm.jpg);
+    margin-left: 30px;
+}
+
+.product-3-sm {
+    width: 270px;
+    height: 270px;
+    float: left;
+    background-image: url(img/product-3-sm.jpg);
+    margin-left: 30px;
+}
+
+.product-4-sm {
+    width: 270px;
+    height: 270px;
+    float: left;
+    background-image: url(img/product-4-sm.jpg);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.product-5-sm {
+    width: 270px;
+    height: 270px;
+    float: left;
+    background-image: url(img/product-5-sm.jpg);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/*седьмой блок*/
+
+.mobile-app {
+    width: 1366px;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+
+.mobile-content {
+    width: 440px;
+    height: 271px;
+    padding-top: 125px;
+    margin-left: 98px;
+}
+
+p.mobile-tag {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    margin-bottom: 4px;
+}
+
+h2.mobile-name {
+    width: 440px;
+    letter-spacing: -3px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+p.mobile-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.app-store {
+    margin-right: 5px;
+}
+
+
+/*Восьмой блок_footer*/
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-image: url(img/footer-back.svg)
+}
+
+.footer-contact {
+    width: 221px;
+    padding-top: 120px;
+    margin-left: 97px;
+    float: left;
+}
+
+.footer-contact h2 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 14px;
+}
+
+.footer-contact .link-1 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 540;
+    line-height: 22px;
+    margin-bottom: 26px;
+}
+
+.footer-contact .link-2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 540;
+    line-height: 22px;
+}
+
+.useful-information {
+    width: 422px;
+    float: left;
+    padding-top: 120px;
+    margin-left: 80px;
+}
+
+.useful-information h2 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 12px;
+}
+
+.useful-1 {
+    float: left;
+}
+
+.useful-information a {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    text-decoration: none;
+    display: block;
+}
+
+.useful-information a:hover {
+    color: darkgray;
+}
+
+.useful-information a:active {
+    color: #99BEC2;
+}
+
+.useful-2 {
+    float: right;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.footer-lets {
+    width: 372px;
+    float: left;
+    padding-top: 120px;
+    margin-left: 78px;
+}
+
+.footer-lets h2 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 14px;
+}
+
+.footer-lets p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 540;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 350px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    background: url(img/telegram.png) no-repeat 334px center;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 510;
+    line-height: 22px;
+    padding-left: 19px;
+}
+
+p.copy {
+    float: left;
+    margin-top: 77px;
+    margin-left: 98px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.social-links {
+    width: 129px;
+    height: 28px;
+    float: left;
+    margin-left: 158px;
+    margin-top: 73px;
+}
+
+a.terms {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    float: left;
+    margin-left: 151px;
+    margin-top: 77px;
+    text-decoration: none;
+}
+
+a.terms:hover {
+    color: darkgray;
+}
+
+a.terms:active {
+    color: #99BEC2;
+}
+
+
+/*Классы для странички products*/
+
+.header-products {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.header-navbar-products a {
+    float: left;
+}
+
+.header-navbar-products .logo-products {
+    margin-top: 63px;
+    margin-left: 98px;
+}
+
+.block-menu-products {
+    float: right;
+    margin-top: 58px;
+    margin-right: 142px;
+}
+
+.menu-list-products {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link-products {
+    color: #8c8c8c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 545;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link-products:hover {
+    color: #212121;
+    font-family: "Montserrat";
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link-search-products:hover {
+    border: none;
+}
+
+.menu-link-products:active {
+    color: #99BEC2;
+    border-bottom: 3px solid #99BEC2;
+}
+
+.menu-link-search-products:active {
+    border-bottom: none;
+}
+
+p.our {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-left: 101px;
+    margin-top: 141px;
+    letter-spacing: -2px;
+}
+
+/*Стили для блока tab-control-products*/
+
+.tab-controll-products {
+    margin: 71px 0 0 98px;
+}
+
+.tab-controll-products li {
+    text-decoration: none;
+}
+
+.tab-controll-products li {
+    list-style-type: none;
+    float: left;
+}
+
+.tab-controll-products li a {
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #6c6c6c;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.tab-controll-products li a.all {
+    padding-left: 7px;
+    padding-right: 26px;
+}
+
+.tab-controll-products li a:hover {
+    padding-bottom: 19px;
+    border-bottom: 3px solid #212121;
+    color: #212121;
+}
+
+.tab-controll-products li a:active {
+    color: #99BEC2;
+    border-bottom: 3px solid #99BEC2;
+}
+
+/*Стили для блока products*/
+
+.products {
+    margin: 72px 98px 120px 98px;
+}
+
+.products a {
+    display: inline-block;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.products a.three-n {
+    margin-right: 0;
+}
+
+.products a.bottom {
+    margin-bottom: 0;
+}
+
+.products a.update {
+    margin: 71px 652px 20px 566px;
+}
+
+/*Стили для страницы_contact*/
+
+.location {
+    width: 1170px;
+    height: 370px;
+    margin: 71px 92px 122px 98px;
+}
+
+.location-1 {
+    width: 370px;
+    height: 370px;
+    outline: 1px solid #A6A6A6;
+    margin-right: 30px;
+    float: left;
+}
+
+.location-1 a {
+    display: inline-block;
+    margin: 46px 166px 25px 166px;
+}
+
+.location-1 h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-left: 113px;
+}
+
+.location-1 h5 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.location-1 .details {
+    text-align: center;
+}
+
+.location-1 .details p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 20px;
+    
+}
+
+.location-1 .details p.address {
+    font-family: "Montserrat Light";
+    font-weight: 600;
+}
+
+.location-2 {
+    width: 370px;
+    height: 370px;
+    margin-right: 30px;
+    float: left;
+    outline: 1px solid #A6A6A6;
+}
+
+.location-2 a {
+    display: inline-block;
+    margin: 46px 166px 25px 166px;
+}
+
+.location-2 h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-left: 113px;
+}
+
+.location-2 h5 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.location-2 .details {
+    text-align: center;
+}
+
+.location-2 .details p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 20px;
+    
+}
+
+.location-2 .details p.address {
+    font-family: "Montserrat Light";
+    font-weight: 600;
+}
+
+.location-3 {
+    width: 370px;
+    height: 370px;
+    float: left;
+    outline: 1px solid #A6A6A6;
+}
+
+.location-3 a {
+    display: inline-block;
+    margin: 46px 166px 25px 166px;
+}
+
+.location-3 h3 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    margin-left: 113px;
+}
+
+.location-3 h5 {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.location-3 .details {
+    text-align: center;
+}
+
+.location-3 .details p {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #212121;
+    margin-bottom: 20px;
+    
+}
+
+.location-3 .details p.address {
+    font-family: "Montserrat Light";
+    font-weight: 600;
+}
+
+/*Стили для_product-deails_SHOWROOM*/
+
+.product-details {
+    width: 1366px;
+    height: 793px;
+    margin-top: 23px;
+}
+
+.product-details .links {
+    width: 1366px;
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.product-details .links .links-text {
+    margin: 28px 0 0 360px;
+    display: inline-block;
+}
+
+.product-details .links .links-text .all {
+    margin-right: 46px;
+}
+
+.product-details .links li {
+    float: left;
+    list-style-type: none;
+    margin-right: 34px;
+}
+
+.product-details .links li a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+}
+
+.product-details .links .links-text li a:hover {
+    color: #212121;
+}
+
+.product-details .links .links-text li a:active {
+    color: #99BEC2;
+}
+
+.product-slider-price {
+    padding-top: 72px;
+}
+
+.product-slider {
+    width: 570px;
+    height: 651px;
+    float: left;
+    margin: 0 56px 0 86px;
+}
+
+.product-slider-controll {
+    width: 230px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.product-slider-controll a {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-slider-controll a.blue:hover {
+    opacity: 0.3;
+}
+
+.product-slider-controll a.blue:active {
+    opacity: 0.6;
+}
+
+.product-slider-controll a.darkblue:hover {
+    opacity: 0.3;
+}
+
+.product-slider-controll a.darkblue:active {
+    opacity: 0.6;
+}
+
+.product-slider-controll a.pink {
+    margin-right: 0px;
+}
+
+.product-price {
+    width: 570px;
+    height: 651px;
+    float: left;
+    text-align: center;
+}
+
+.product-price h2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 39px;
+}
+
+.product-price p.red {
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-bottom: 18px;
+}
+
+.product-price p.price {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48.02px;
+    margin-bottom: 24px;
+}
+
+.product-price p.price span {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.button-red {
+    width: 510px;
+    height: 71px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 75px;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    display: inline-block;
+}
+
+.button-red:hover {
+    background:  #f44336 url(img/arrow-white.svg) no-repeat 360px 24px;
+}
+
+.button-red:active {
+   box-shadow: 0 1px 2px 1px rgba(33, 33, 33, 0.35);
+}
+
+.product-price p.text {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.01px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 33px;
+    padding-right: 30px;
+    margin-top: 26px;
+
+}
+
+.related-products {
+    width: 1171px;
+    height: 468px;
+    margin: 245px 97px 120px 98px;
+}
+
+.related-products p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}
+
+.related-products a {
+    float:right;
+    margin-top: 17px;
+}
+
+.products-rel {
+    margin-top: 54px;
+}
+
+.prod-one, .prod-two, .prod-three {
+    float: left;
+    margin-right: 30px;
+}
+
+.prod-three {
+    margin-right: 0px;
+}
+
+
+
+
