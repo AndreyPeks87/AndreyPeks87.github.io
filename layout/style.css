@@ -154,9 +154,9 @@ a.explore:active {
 .slider-name {
     height: 43px;
     color: #212121;
-    font-family: "Montserrat Thin";
+    font-family: 'Montserrat';
     font-size: 62px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 72px;
     text-transform: uppercase;
     margin-bottom: 34px;
